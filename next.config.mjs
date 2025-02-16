@@ -5,5 +5,5 @@ const nextConfig = {
     assetPrefix: '/ramashin/', // Ensures assets load correctly
   };
   
-  module.exports = nextConfig;
+export default nextConfig
   
