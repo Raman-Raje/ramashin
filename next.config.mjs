@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',  // Required for GitHub Pages
-    basePath: '/ramashin',  // Set this to your GitHub repository name
+    output: 'export',  // Required for static export
+    basePath: '/ramashin',  // Set to your repo name
     assetPrefix: '/ramashin/', // Ensures assets load correctly
   };
-
-export default nextConfig;
+  
+  module.exports = nextConfig;
+  
